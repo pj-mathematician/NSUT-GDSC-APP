@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/github" android:icon="@android:drawable/ic_dialog_info"
+            android:title="Github Link" />
+        <item android:id="@+id/theme" android:icon="@drawable/ic_outline_brightness_medium_24"
+            android:title="Theme" />
+    </group>
+</menu>

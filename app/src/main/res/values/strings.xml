@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NSUT GDSC APP</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_email">Not a valid Email!</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="label">Email</string>
+    <string name="title_activity_list">Item Manager</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Item List</string>
+    <string name="second_fragment_label">Add Items</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="prompt_item">Item Name</string>
+    <string name="prompt_price">Item Price</string>
+</resources>

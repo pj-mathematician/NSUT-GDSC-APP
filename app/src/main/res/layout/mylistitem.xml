@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylistitem"
+    android:longClickable="true"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:longClickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:longClickable="true"
+            android:id="@+id/titletext"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="NAME"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/timetext"
+            android:text="Time"
+            android:longClickable="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/pricetext"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:layout_weight="1"
+        android:longClickable="true"
+        android:text="PRICE"
+        android:textAlignment="viewEnd" />
+
+</LinearLayout>
